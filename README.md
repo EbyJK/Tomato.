@@ -75,7 +75,7 @@ CVV: Any 3 digits
 ## 🌍 Deployment
 
 Frontend: Vercel / Netlify
-Backend: Render / Railway
+Backend: https://tomato-imtg.onrender.com/
 
 
 ---
