@@ -11,7 +11,9 @@ import { ToastContainer, toast } from 'react-toastify';
 
 const App = () => {
 
-  const url="http://localhost:4000"
+  // const url="http://localhost:4000"
+  
+  const url="https://tomato-imtg.onrender.com/"
   return (
     <div>
       <ToastContainer></ToastContainer>
