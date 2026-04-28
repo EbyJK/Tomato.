@@ -38,7 +38,7 @@ const Navbar = ({setShowLogin}) => {
       {!token?<button onClick={()=>setShowLogin(true)}>sign in</button>:<div className="navbar-profile">
         <img src={assets.profile_icon}></img>
         <ul className="nav-profile-dropdown">
-          <li><img src={assets.bag_icon}></img>
+          <li onClick={()=>navigate('/myorders')}><img src={assets.bag_icon}></img>
             <p>Orders</p>
           </li>
           <hr/>
