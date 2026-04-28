@@ -17,10 +17,7 @@ const port=process.env.PORT||4000
 
 //middleware
 app.use(express.json())
-app.use(cors({
-     origin: "https://tomato-lhlo.vercel.app/",
-  credentials: true
-}))
+app.use(cors())
 
 
 // db connection
